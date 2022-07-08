@@ -15,6 +15,15 @@ a {
     color: white;
 }
 
+button {
+    padding: 16px 48px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /* First Division plus Header */
 .herotext {
     background-color: #1F2937;
@@ -75,6 +84,10 @@ ul {
     align-items: center;
 }
 
+button.one {
+    border: 2px solid #3882F6;
+}
+
 /* Second Division */
 .hero2 {
     font-weight: extra-bold;
@@ -112,6 +125,7 @@ ul {
 
 .con2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 16px;
     align-items: flex-start;
@@ -140,4 +154,38 @@ ul {
     display: flex;
     justify-content: flex-end;
     padding: 16px 8px 0;
+    font-size: 24px;
+}
+
+/* Fourth Division */
+.box {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 120px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero4 {
+    color: #F9FAF8;
+    margin: 0 16px 8px 0;
+    font-size: 24px;
+}
+
+.text4 {
+    color: #E5E7EB;
+    margin: 0 16px 0 0; 
+}
+
+.container {
+    padding: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+button.four {
+    border: 2px solid #F9FAF8;
 }
