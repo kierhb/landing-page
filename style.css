@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;;
 }
 
 a {
@@ -14,11 +15,12 @@ a {
     color: white;
 }
 
+/* First Division plus Header */
 .herotext {
     background-color: #1F2937;
     display: flex;
-    flex-direction: column;
-    padding: 0 128px;
+    flex-flow: column wrap;
+    padding: 0 200px;
 }
 
 .header {
@@ -26,6 +28,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding: 8px 16px;
 }
 
 .logo {
@@ -42,6 +45,12 @@ ul {
     gap: 16px;
 }
 
+.first {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 800px;
+}
+
 .hero1 {
     font-size: 48px;
     font-weight: extra-bold;
@@ -53,7 +62,58 @@ ul {
     color: #E5E7EB;
 }
 
-.placeholder {
-    width: 500px;
-    height: 300px;
+.placeholder img{
+    max-width: 700px;
+    max-height: 400px;
+    flex: 1
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Second Division */
+.hero2 {
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.image2 img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    margin: 0 8px 8px;
+}
+
+.text2 {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    align-items: flex-start;
+    gap: 75px;
+}
+
+.second {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 32px 200px;
+    margin-bottom: 50px;
 }
