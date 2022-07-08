@@ -32,6 +32,7 @@ button {
     padding: 0 200px 50px;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -54,14 +55,7 @@ ul {
     gap: 25px;
 }
 
-.first {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 100px 0 100px;
-}
-
+/* First Division */
 .hero1 {
     font-size: 48px;
     font-weight: bolder;
@@ -75,29 +69,38 @@ ul {
     padding: 0 0 30px
 }
 
+button.one {
+    border: 2px solid #3882F6;
+}
+
+.first {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+
 .placeholder {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin: 100px 0 100px;
+    box-shadow: 1px 1px 50px #E5E7EB;
 }
 
 .placeholder img {
+    display: flex;
+    flex-wrap: wrap;
     width: 500px;
     height: 300px;
-    flex-shrink: 0;
-    padding-left: 24px;
-    border: 5px solid red;
-}
-
-button.one {
-    border: 2px solid #3882F6;
 }
 
 .container-1 {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    border: 5px solid red;
 }
 
 /* Second Division */
@@ -125,6 +128,7 @@ button.one {
     border: 5px solid #3882F6;
     border-radius: 16px;
     margin: 0 16px 16px;
+    box-shadow: 1px 1px 50px #8ea4c4;
 }
 
 .text2 {
