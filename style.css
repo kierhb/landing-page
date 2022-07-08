@@ -87,6 +87,13 @@ ul {
     text-align: center;
 }
 
+.image2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .image2 img {
     width: 150px;
     height: 150px;
@@ -97,7 +104,7 @@ ul {
 
 .text2 {
     display: flex;
-    width: 150px;
+    width: 250px;
     justify-content: center;
     text-align: center;
     margin: 8px;
@@ -105,10 +112,9 @@ ul {
 
 .con2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 16px;
     align-items: flex-start;
-    gap: 75px;
 }
 
 .second {
@@ -116,4 +122,22 @@ ul {
     flex-flow: column nowrap;
     padding: 32px 200px;
     margin-bottom: 50px;
+}
+
+/* Third Division */
+.third {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    background-color: #E5E7EB;
+    padding: 75px 200px;
+}
+
+.hero3 {
+    font-weight: bolder;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 8px 0;
 }
