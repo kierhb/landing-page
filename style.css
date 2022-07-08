@@ -29,7 +29,7 @@ button {
     background-color: #1F2937;
     display: flex;
     flex-flow: column wrap;
-    padding: 0 200px;
+    padding: 0 200px 50px;
 }
 
 .header {
@@ -37,7 +37,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 8px 16px;
+    padding: 30px 0;
 }
 
 .logo {
@@ -51,46 +51,58 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 25px;
 }
 
 .first {
     display: flex;
     flex-flow: column wrap;
-    max-width: 800px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 0 100px;
 }
 
 .hero1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
+    padding: 0 0 30px;
 }
 
 .text1 {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0 0 30px
 }
 
-.placeholder img{
-    max-width: 700px;
-    max-height: 400px;
-    flex: 1
-}
-
-.container {
+.placeholder {
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
+}
+
+.placeholder img {
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-left: 24px;
+    border: 5px solid red;
 }
 
 button.one {
     border: 2px solid #3882F6;
 }
 
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    border: 5px solid red;
+}
+
 /* Second Division */
 .hero2 {
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
     display: flex;
     font-size: 32px;
@@ -112,7 +124,7 @@ button.one {
     height: 150px;
     border: 5px solid #3882F6;
     border-radius: 16px;
-    margin: 0 8px 8px;
+    margin: 0 16px 16px;
 }
 
 .text2 {
@@ -135,7 +147,9 @@ button.one {
     display: flex;
     flex-flow: column nowrap;
     padding: 32px 200px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Third Division */
@@ -145,7 +159,7 @@ button.one {
     color: #1f2937;
     text-align: justify;
     background-color: #E5E7EB;
-    padding: 75px 200px;
+    padding: 75px 350px;
 }
 
 .hero3 {
@@ -180,7 +194,7 @@ button.one {
     margin: 0 16px 0 0; 
 }
 
-.container {
+.container-4 {
     padding: 16px;
     display: flex;
     flex-flow: column nowrap;
